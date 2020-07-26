@@ -18,6 +18,8 @@ You can create a new category for your blog under Posts → Categories, and thos
 
 If you want to link to a category in your main navigation, create a new page under Posts → Pages. Title your new page and then put the URL to the category in your contents, e.g. https://yourdomain.com/categories/something/. Keep “Include this page in your blog navigation” checked and click Add Page.
 
+_Note: while category labels can have lower and upper case, their "slug", or the path in how they appear in web addresses, need to be all lower cases. So if you label a category "Something", you will get an error with `youdomain.com/categories/Something`, and will need to use a lower-case "s"._
+
 <img src="/assets/images/web/categories-navigation.jpg" width="700" height="610" alt="Categories in navigation" />
 
 Click and drag the three gray lines to reorder the pages in your navigation menu.
